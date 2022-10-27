@@ -2,20 +2,27 @@
 const links = [
   {
     id:1,
-    link:'inicio'
+    link:'home',
+    name:'inicio'
   },
   {
     id:2,
-    link:'tours'
+    link:'tours',
+    name:'tours'
   },
   {
     id:3,
-    link:'nosotros'
+    link:'about',
+    name:'nosotros'
   },
   {
     id:4,
-    link:'contactanos'
+    link:'contact',
+    name:'contactanos'
   }
 ]
 
 export default links
+
+
+
