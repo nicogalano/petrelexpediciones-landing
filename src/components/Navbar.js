@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import links from '../data'
+import links from '../dataLinks'
 import logo from '../assets/logo-01.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { Link } from "react-scroll";

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import { BsInstagram, BsFacebook } from 'react-icons/bs'
-import links from '../data'
+import { BsInstagram, BsWhatsapp } from 'react-icons/bs'
+import links from '../dataLinks'
 import { Link } from "react-scroll";
 
 
@@ -20,16 +20,16 @@ const Footer = () => {
           <BsInstagram size={30}/>
         </>
       ),
-      href: 'https://www.instragram.com'
+      href: 'https://www.instagram.com/petrel_expediciones'
     },
     {
       id:2,
       child: (
         <>
-          <BsFacebook size={30}/>
+          <BsWhatsapp size={30}/>
         </>
       ),
-      href: 'https://www.facebook.com'
+      href: 'https://wa.me/56982311455'
     }
   ]
 

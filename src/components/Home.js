@@ -27,7 +27,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div>
+          <div className='hidden md:flex'>
             <img 
               src={HeroImage} 
               alt="my profile" 

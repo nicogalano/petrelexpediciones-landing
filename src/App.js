@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Tours from "./components/Tours";
+import Whatsapp from "./components/Whatsapp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Contact />
 
+      <Whatsapp />
       <Footer />
       
     </div>
